@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok 3 | Digital Project</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="bg-indigo-600 text-white font-black text-xs px-2.5 py-1 rounded-md tracking-widest uppercase">Kelompok 3</span>
+                <span class="text-xl font-bold tracking-tight text-white">Saint John Project</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-indigo-400 transition">Tentang Kami</a>
+                <a href="#team" class="hover:text-indigo-400 transition">Anggota Tim</a>
+                <a href="#project" class="hover:text-indigo-400 transition">Karya Kami</a>
+            </nav>
+            <a href="#project" class="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold px-4 py-2 rounded-lg shadow-lg shadow-indigo-600/30 transition">Lihat Project</a>
+        </div>
+    </header>
+
+    <!-- Hero Section (Soft Selling) -->
+    <section id="about" class="pt-36 pb-20 px-6 max-w-4xl mx-auto text-center">
+        <span class="inline-block px-3 py-1 bg-indigo-950 text-indigo-400 border border-indigo-800/50 rounded-full text-xs font-semibold mb-6">
+            Ekstrakurikuler Multimedia
+        </span>
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-tight mb-6">
+            Membangun Karya Digital Sederhana, Interaktif & Bermakna.
+        </h1>
+        <p class="text-lg md:text-xl text-slate-400 mb-8 leading-relaxed">
+            Menyatukan ide, kreativitas, dan struktur koding untuk menghasilkan tampilan website yang estetik serta responsif melalui platform GitHub & Vercel.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="#team" class="bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-6 py-3 rounded-xl transition shadow-lg shadow-indigo-600/20">
+                Berkenalan dengan Tim
+            </a>
+            <a href="#project" class="border border-slate-700 hover:bg-slate-900 text-slate-300 font-medium px-6 py-3 rounded-xl transition">
+                Jelajahi Projek
+            </a>
+        </div>
+    </section>
+
+    <!-- Anggota Kelompok Section -->
+    <section id="team" class="py-16 bg-slate-900/50 border-y border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-white mb-2">Anggota Kelompok 3</h2>
+                <p class="text-slate-400 text-sm">Kolaborasi dibalik pembuatan landing page ini</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Member 1 -->
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 text-center hover:border-indigo-500/50 transition group">
+                    <div class="w-20 h-20 bg-indigo-900/50 text-indigo-400 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold group-hover:scale-105 transition">
+                        R
+                    </div>
+                    <h3 class="text-lg font-semibold text-white">Rara</h3>
+                    <p class="text-xs text-indigo-400 mt-1 mb-3">Creative & UI Designer</p>
+                    <p class="text-xs text-slate-400 leading-relaxed">Berfokus pada pemilihan tata letak, skema warna, dan konsep visual promo video.</p>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 text-center hover:border-indigo-500/50 transition group">
+                    <div class="w-20 h-20 bg-indigo-900/50 text-indigo-400 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold group-hover:scale-105 transition">
+                        C
+                    </div>
+                    <h3 class="text-lg font-semibold text-white">Cecilia A.K</h3>
+                    <p class="text-xs text-indigo-400 mt-1 mb-3">Content Writer & Storyteller</p>
+                    <p class="text-xs text-slate-400 leading-relaxed">Menyusun narasi soft selling, konsep script reels, dan pesan utama projek.</p>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 text-center hover:border-indigo-500/50 transition group">
+                    <div class="w-20 h-20 bg-indigo-900/50 text-indigo-400 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold group-hover:scale-105 transition">
+                        CG
+                    </div>
+                    <h3 class="text-lg font-semibold text-white">Chievo Griffin</h3>
+                    <p class="text-xs text-indigo-400 mt-1 mb-3">Web Developer & Deployment</p>
+                    <p class="text-xs text-slate-400 leading-relaxed">Menangani struktur koding HTML/CSS, integrasi GitHub, serta hosting di Vercel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Showcase -->
+    <section id="project" class="py-20 max-w-5xl mx-auto px-6">
+        <div class="bg-slate-900 rounded-3xl p-8 md:p-12 border border-slate-800 shadow-2xl flex flex-col md:flex-row items-center gap-8">
+            <div class="md:w-1/2 space-y-4">
+                <span class="text-xs font-semibold text-indigo-400 tracking-wider uppercase">Project Landing Page</span>
+                <h3 class="text-2xl font-bold text-white">Soft Selling Portfolio Website</h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Website ini dibuat sebagai bagian dari tugas Multimedia. Menggabungkan konsep visual bersih dengan kode yang ringan, dikembangkan langsung dari GitHub dan terhubung otomatis ke Vercel[cite: 3, 5].
+                </p>
+                <div class="pt-2 flex items-center space-x-4">
+                    <span class="inline-flex items-center text-xs text-slate-400">
+                        <i class="fab fa-github mr-2 text-base text-white"></i> GitHub Public
+                    </span>
+                    <span class="inline-flex items-center text-xs text-slate-400">
+                        <i class="fas fa-bolt mr-2 text-base text-indigo-400"></i> Hosted on Vercel
+                    </span>
+                </div>
+            </div>
+            <div class="md:w-1/2 bg-slate-950 p-6 rounded-2xl border border-slate-800 w-full text-left font-mono text-xs text-slate-300">
+                <div class="flex space-x-2 mb-4">
+                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                </div>
+                <p class="text-slate-500">// Kelompok 3 - Project Specs</p>
+                <p class="mt-2"><span class="text-purple-400">const</span> <span class="text-blue-400">team</span> = [<span class="text-emerald-400">"Rara"</span>, <span class="text-emerald-400">"Cecilia A.K"</span>, <span class="text-emerald-400">"Chievo Griffin"</span>];</p>
+                <p class="mt-1"><span class="text-purple-400">const</span> <span class="text-blue-400">tools</span> = [<span class="text-emerald-400">"HTML"</span>, <span class="text-emerald-400">"Tailwind"</span>, <span class="text-emerald-400">"GitHub"</span>, <span class="text-emerald-400">"Vercel"</span>];</p>
+                <p class="mt-1"><span class="text-purple-400">let</span> <span class="text-blue-400">status</span> = <span class="text-emerald-400">"Deployed & Live"</span>;</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-800 text-center text-xs text-slate-500">
+        <p>Dibuat oleh Kelompok 3 (Rara, Cecilia A.K, Chievo Griffin)</p>
+        <p class="mt-1">Ekstrakurikuler Multimedia SMAK Saint John</p>
+    </footer>
+
+</body>
+</html>
